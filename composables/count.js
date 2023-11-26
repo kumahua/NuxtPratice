@@ -1,12 +1,12 @@
 export const useCounter = () => {
-   const count = ref(0)
+  const count = ref(0)
 
-   const increment = () => {
-      count.value++
-   }
+  const increment = () => {
+    count.value++
+  }
 
-   return {
-      count,
-      increment
-   }
+  return {
+    count,
+    increment
+  }
 }
